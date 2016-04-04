@@ -1,0 +1,48 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/memo">
+
+    <Button
+        android:id="@+id/btnm1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:textSize="45dp"
+        android:layout_alignParentTop="true"
+        android:text="Create memo" />
+
+    <Button
+        android:id="@+id/btnm2"
+                android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnm1"
+        android:text="Edit memo" 
+          android:textSize="45dp"/>
+
+    <Button
+        android:id="@+id/btnm3"
+                android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnm2"
+        android:text="Delete memo" 
+          android:textSize="45dp"/>
+
+
+    <TextView
+        android:id="@+id/tvm1"
+        android:textColor="#C73F17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Memo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+
+</RelativeLayout>

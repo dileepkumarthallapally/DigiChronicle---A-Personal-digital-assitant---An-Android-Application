@@ -1,0 +1,49 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reminder1" >
+
+    <Button
+        android:id="@+id/btnrm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:text="Create"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/tvr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Reminders"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#C73F17"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/btnrm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnrm1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Edit"
+        android:textSize="45dp" />
+
+    <Button
+        android:id="@+id/btnrm3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnrm1"
+        android:layout_below="@+id/btnrm2"
+        android:layout_marginTop="16dp"
+        android:text="Delete"
+        android:textSize="45dp" />
+
+
+</RelativeLayout>

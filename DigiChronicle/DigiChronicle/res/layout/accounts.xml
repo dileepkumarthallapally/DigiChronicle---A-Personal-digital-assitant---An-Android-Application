@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img311" >
+
+    <TextView
+        android:id="@+id/tvc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Accounts"
+        android:textColor="#C73F17"
+        android:textSize="35dp" />
+    
+     <Button 
+        android:id="@+id/btnacc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvc1"        
+        android:text="Accounts"
+        android:layout_marginLeft="35dp"   
+        android:textSize="15dp"
+    />
+      <Button 
+        android:id="@+id/btndet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvc1"
+        android:layout_marginLeft="135dp"        
+        android:text="Get deails"
+        android:textSize="15dp"
+    />
+      <TextView
+        android:id="@+id/tvc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnacc"
+        android:text="Income : "
+        android:textSize="25dp" />
+     
+
+    <TextView
+        android:id="@+id/tvc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvc3"
+        android:text="Expenditure : "
+        android:textSize="25dp" />
+    
+
+    <EditText
+        android:id="@+id/edtcno1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvc3"
+        android:layout_below="@+id/btnacc"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/edtcno2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvc2"
+        android:layout_below="@+id/edtcno1"
+        android:inputType="numberDecimal" />
+    <Button 
+        
+         android:id="@+id/btnok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtcno2"        
+        android:text="ok"
+        android:layout_centerHorizontal="true"
+          
+        android:textSize="15dp"
+        
+        />
+<TextView
+        android:id="@+id/tvcdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnok"
+        android:text="Enter dates:"
+         android:textColor="#C73F17"
+        android:textSize="25dp" />
+    
+    
+    <EditText
+        android:id="@+id/edtdate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/tvcdate"
+        android:hint="From date"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:inputType="date" />
+    <EditText
+        android:id="@+id/edtdate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvcdate"
+        android:layout_alignParentRight="true"
+        android:inputType="date"
+        android:layout_marginRight="35dp"
+        android:hint="To date" />
+<Button 
+        android:id="@+id/btndate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtdate1"
+        android:layout_centerInParent="true"        
+        android:text=" Ok "
+        android:layout_marginLeft="35dp"   
+        android:textSize="15dp"></Button>
+    <TextView
+        android:id="@+id/tvcinc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/btndate"
+        
+        android:text="Your income is:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvcexp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvcinc"
+        
+        android:text="Your total expenditure is:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvcsav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/tvcexp"
+        
+        android:text="Total savings is"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     
+     <TextView
+        android:id="@+id/tvcinc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvcinc"
+        android:layout_below="@+id/btndate"
+        android:text=" 0 "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+<TextView
+        android:id="@+id/tvcexp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvcinc"
+        android:layout_toRightOf="@+id/tvcexp"
+        android:text=" 0 "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         />
+  
+<TextView
+        android:id="@+id/tvcsav1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvcsav"
+        android:text=" 0 "
+        android:layout_below="@+id/tvcexp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        
+         />
+
+     
+</RelativeLayout>

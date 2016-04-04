@@ -1,0 +1,53 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/image2">
+
+    <Button
+        android:id="@+id/btn21"
+        android:layout_marginTop="100dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          android:textSize="45dp"
+        android:layout_alignParentTop="true"
+        android:text="Memo" />
+
+    <Button
+        android:id="@+id/btn22"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn21"
+        android:text="Tasks" 
+          android:textSize="45dp"/>
+
+    <Button
+        android:id="@+id/btn23"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_below="@+id/btn22"
+        android:text="Events" 
+          android:textSize="45dp"/>
+
+
+    <Button
+        android:id="@+id/btn25"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          android:textSize="45dp"
+        android:layout_below="@+id/btn23"
+        android:text="Accounts" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:textColor="#C73F17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Widgets"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/events1">
+
+    <Button
+        android:id="@+id/btne1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:textSize="45dp"
+        android:layout_alignParentTop="true"
+        android:text="Create" />
+
+
+    <TextView
+        android:id="@+id/tve1"
+        android:textColor="#C73F17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="events"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/btne2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Edit"
+        android:textSize="45dp" />
+
+    <Button
+        android:id="@+id/btne3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btne1"
+        android:layout_below="@+id/btne2"
+        android:layout_marginTop="38dp"
+        android:text="Delete"
+        android:textSize="45dp" />
+
+    
+
+</RelativeLayout>

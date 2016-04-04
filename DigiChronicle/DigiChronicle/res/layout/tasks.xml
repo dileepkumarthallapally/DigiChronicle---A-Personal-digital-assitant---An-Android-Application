@@ -1,0 +1,49 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/task">
+
+    <Button
+        android:id="@+id/btntk1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:textSize="45dp"
+        android:layout_alignParentTop="true"
+        android:text="Create task" />
+
+    <Button
+        android:id="@+id/btntk2"
+                android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btntk1"
+        android:text="Edit task" 
+          android:textSize="45dp"/>
+
+    <Button
+        android:id="@+id/btntk3"
+                android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btntk2"
+        android:text="Delete task" 
+          android:textSize="45dp"/>
+
+
+    <TextView
+        android:id="@+id/tvt1"
+        android:textColor="#C73F17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Tasks"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+    
+
+</RelativeLayout>
